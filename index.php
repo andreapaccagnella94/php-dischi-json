@@ -1,9 +1,11 @@
 <?php
 
 require_once "./functions.php";
+$dischi = getDischi();
 // var_dump($dischi);
 // $album1 = $dischi[0];
 // var_dump($album1["coverUrl"]);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

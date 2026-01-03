@@ -2,7 +2,7 @@
 
 // recupero i dati già decodificati per leggerli in php
 require_once "./functions.php";
-
+$dischi = getDischi();
 // var_dump($dischi);
 
 // recupero i dati che mi arrivano in POST dal form (test personale per vedere se ho capito)
