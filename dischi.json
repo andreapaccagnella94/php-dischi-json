@@ -5,15 +5,15 @@
         "artist": "The Beatles",
         "year": 1969,
         "genre": "Rock",
-        "coverUrl": "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?w=400&h=400&fit=crop"
+        "coverUrl": "https:\/\/images.unsplash.com\/photo-1503185912284-5271ff81b9a8?w=400&h=400&fit=crop"
     },
     {
         "id": 2,
         "title": "Thriller",
         "artist": "Michael Jackson",
         "year": 1982,
-        "genre": "Pop / Funk",
-        "coverUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&h=400&fit=crop"
+        "genre": "Pop \/ Funk",
+        "coverUrl": "https:\/\/images.unsplash.com\/photo-1526170375885-4d8ecf77b99f?w=400&h=400&fit=crop"
     },
     {
         "id": 3,
@@ -21,14 +21,14 @@
         "artist": "Pink Floyd",
         "year": 1973,
         "genre": "Progressive Rock",
-        "coverUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop"
+        "coverUrl": "https:\/\/images.unsplash.com\/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop"
     },
     {
         "id": 4,
         "title": "Back to Black",
         "artist": "Amy Winehouse",
         "year": 2006,
-        "genre": "Soul / R&B",
-        "coverUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&h=400&fit=crop"
+        "genre": "Soul \/ R&B",
+        "coverUrl": "https:\/\/images.unsplash.com\/photo-1526170375885-4d8ecf77b99f?w=400&h=400&fit=crop"
     }
 ]

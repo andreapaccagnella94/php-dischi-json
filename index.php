@@ -43,10 +43,11 @@ require_once "./functions.php";
 
 
         <main>
+
             <div class="container my-5">
 
                 <h1 class="mb-4 text-center">I nostri album</h1>
-
+                <!-- card -->
                 <div class="row g-4">
 
                     <!-- ----- CARDs ----- -->
@@ -77,7 +78,80 @@ require_once "./functions.php";
 
 
                 </div>
+                <hr class="my-5">
+                <!-- fomr -->
+                <form action="./server.php" method="POST">
+
+                    <!-- GRIGLIA RESPONSIVE -->
+                    <div class="row g-3">
+
+                        <!-- TITOLO -->
+                        <div class="col-12 col-md-6">
+                            <label for="title" class="form-label">Titolo *</label>
+                            <input type="text"
+                                class="form-control"
+                                id="title"
+                                name="title"
+                                placeholder="Es. Abbey Road"
+                                required>
+                        </div>
+
+                        <!-- ARTISTA -->
+                        <div class="col-12 col-md-6">
+                            <label for="artist" class="form-label">Artista *</label>
+                            <input type="text"
+                                class="form-control"
+                                id="artist"
+                                name="artist"
+                                placeholder="Es. The Beatles"
+                                required>
+                        </div>
+
+                        <!-- ANNO DI PUBBLICAZIONE -->
+                        <div class="col-12 col-md-4">
+                            <label for="year" class="form-label">Anno *</label>
+                            <input type="number"
+                                class="form-control"
+                                id="year"
+                                name="year"
+                                placeholder="Es. 1969"
+                                min="1900"
+                                max="2100"
+                                required>
+                        </div>
+
+                        <!-- GENERE -->
+                        <div class="col-12 col-md-4">
+                            <label for="genre" class="form-label">Genere *</label>
+                            <input type="text"
+                                class="form-control"
+                                id="genre"
+                                name="genre"
+                                placeholder="Es. Rock"
+                                required>
+                        </div>
+
+                        <!-- URL COPERTINA -->
+                        <div class="col-12 col-md-4">
+                            <label for="coverUrl" class="form-label">URL copertina *</label>
+                            <input type="url"
+                                class="form-control"
+                                id="coverUrl"
+                                name="coverUrl"
+                                placeholder="https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?w=400&h=400&fit=crop"
+                                required>
+                        </div>
+                    </div>
+
+                    <!-- BUTTON -->
+                    <div class="d-grid gap-2 col-12 col-md-6 mx-auto mt-4">
+                        <button type="submit" class="btn btn-success btn-lg">
+                            Aggiungi Album
+                        </button>
+                    </div>
+                </form>
             </div>
+
         </main>
 
     </body>
